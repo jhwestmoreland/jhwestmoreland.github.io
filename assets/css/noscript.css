@@ -10,7 +10,7 @@
 		background-position: center,center,top center;		
 		background-repeat: repeat;
 		background-attachment: fixed,fixed,fixed;
-		box-shadow: 0 0 8px 8px black inset;
+		
 	}
 
 		#wrapper.fade-in:before {
