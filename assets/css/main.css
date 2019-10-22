@@ -3208,7 +3208,7 @@ input, select, textarea {
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
 			background-repeat: repeat-y;
-			 box-shadow: 0 0 8px 8px black inset;
+			 /*box-shadow: 0 0 8px 8px black inset;*/
 			
 		}
 		}
