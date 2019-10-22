@@ -3202,7 +3202,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient( black 70%,transparent 20%), url("../../images/bg.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient( transparent 20%, white 70%), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-attachment: scroll,								scroll,														scroll;
