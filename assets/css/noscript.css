@@ -4,12 +4,13 @@
 /* Wrapper */
 
 	#wrapper {
-		background-color: #212931;
+		background-color: black;
 		background-image: url("../../images/overlay.png"),url("../../images/bg.jpg");
 		background-size: auto,auto,100% auto;
 		background-position: center,center,top center;		
 		background-repeat: repeat;
 		background-attachment: fixed,fixed,fixed;
+		box-shadow: 0 0 8px 8px black inset;
 	}
 
 		#wrapper.fade-in:before {
