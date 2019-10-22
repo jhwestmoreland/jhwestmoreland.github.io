@@ -3195,11 +3195,11 @@ input, select, textarea {
 		overflow: hidden;
 	}
 	
-	.one-edge-shadow {
+	/*.one-edge-shadow {
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	        box-shadow: 0 8px 6px -6px black;
-	}
+	}*/
 
 		#wrapper > .bg {
 			position: absolute;
@@ -3257,11 +3257,11 @@ input, select, textarea {
 
 		}
 
-		.shadow1 .bg {
-			position: relative; /* This protects the inner element from being blurred */
+	/*	.shadow1 .bg {
+			position: relative; /* This protects the inner element from being blurred /
 			padding: 100px;
 			background-color: #DDD;
-		}
+		}*/
 
 /* Intro */
 
