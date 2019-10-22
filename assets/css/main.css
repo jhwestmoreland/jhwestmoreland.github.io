@@ -3194,12 +3194,6 @@ input, select, textarea {
 		z-index: 1;
 		overflow: hidden;
 	}
-	
-	/*.one-edge-shadow {
-	-webkit-box-shadow: 0 8px 6px -6px black;
-	   -moz-box-shadow: 0 8px 6px -6px black;
-	        box-shadow: 0 8px 6px -6px black;
-	}*/
 
 		#wrapper > .bg {
 			position: absolute;
@@ -3215,6 +3209,7 @@ input, select, textarea {
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
 			
+			background-repeat: repeat-y;
 		}
 		}
 
@@ -3252,16 +3247,10 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: auto,	auto,auto 175%;
 			}
 
 		}
-
-	/*	.shadow1 .bg {
-			position: relative; /* This protects the inner element from being blurred /
-			padding: 100px;
-			background-color: #DDD;
-		}*/
 
 /* Intro */
 
