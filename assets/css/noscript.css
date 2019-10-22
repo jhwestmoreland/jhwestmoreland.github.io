@@ -3,7 +3,6 @@
 /* Wrapper */
 
 	#wrapper {
-		background-color: black;
 		background-image: url("../../images/overlay.png"),url("../../images/bg.jpg");
 		background-size: auto,auto,100% auto;
 		background-position: center,center,top center;		
