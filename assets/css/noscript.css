@@ -3,7 +3,7 @@
 /* Wrapper */
 
 	#wrapper {background-color: #212931;
-		background-image: url("../../images/overlay.png"),radial-gradient(transparent 20%, white 70%), url("../../images/bg.jpg");
+		background-image: url("../../images/overlay.png"),radial-gradient(black 70%, transparent 20%), url("../../images/bg.jpg");
 		background-size: auto,auto,100%,auto;
 		background-position: center,center,top center;		
 		background-repeat: repeat;
