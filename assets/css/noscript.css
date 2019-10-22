@@ -9,7 +9,7 @@
 		background-position: center,								center,														top center;
 		background-repeat: repeat,								no-repeat,													no-repeat;
 		background-attachment: fixed,								fixed,														fixed;
-		background-repeat: repeat-y;
+		background-repeat: repeat;
 	}
 
 		#wrapper.fade-in:before {
