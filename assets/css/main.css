@@ -2201,8 +2201,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 2px #ff0d00;
+		color: #ff0d00 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2219,7 +2219,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: #ff0d00;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2465,7 +2465,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #212931;
+		color: #ff0d00;
 	}
 
 	input[type="text"],
@@ -2490,7 +2490,7 @@ input, select, textarea {
 
 		select option {
 			background-color: #ffffff;
-			color: #212931;
+			color: #ff0d00;
 		}
 
 	.select-wrapper:before {
@@ -2499,7 +2499,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #212931;
+		color: #ff0d00;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2509,8 +2509,8 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #212931;
-		border-color: #212931;
+		background-color: #ff0d00;
+		border-color: #ff0d00;
 		color: #ffffff;
 	}
 
@@ -3058,7 +3058,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #212931;
+		color: #ff0d00;
 	}
 
 	table thead {
@@ -3162,7 +3162,7 @@ input, select, textarea {
 	}
 
 	.pagination a {
-		color: #212931 !important;
+		color: #ff0d00 !important;
 	}
 
 		.pagination a:hover {
@@ -3201,7 +3201,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212931;
+			background-color: #ff0d00;
 			background-image: url("../../images/overlay.png"), linear-gradient( transparent 20%, white 70%), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -4493,7 +4493,7 @@ input, select, textarea {
 		#navPanelToggle.alt {
 			background-color: rgba(255, 255, 255, 0.875);
 			box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-			color: #212931;
+			color: #ff0d00;
 		}
 
 			#navPanelToggle.alt:hover {
@@ -4530,7 +4530,7 @@ input, select, textarea {
 		-webkit-overflow-scrolling: touch;
 		background: #ffffff;
 		box-shadow: none;
-		color: #212931;
+		color: #ff0d00;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -4605,7 +4605,7 @@ input, select, textarea {
 			}
 
 			#navPanel .close:hover {
-				color: #212931;
+				color: #ff0d00;
 			}
 
 			@media screen and (max-width: 736px) {
