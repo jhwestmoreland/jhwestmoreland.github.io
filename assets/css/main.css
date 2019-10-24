@@ -293,7 +293,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #059033 !important;
 		}
 
 	strong, b {
@@ -2872,7 +2872,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #059033;
 	}
 
 /* Section/Article */
@@ -3295,7 +3295,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #059033 !important;
 			}
 
 		#intro strong, #intro b {
@@ -3335,7 +3335,7 @@ input, select, textarea {
 			#intro button:hover,
 			#intro .button:hover {
 				box-shadow: inset 0 0 0 2px #059033;
-				color: #18bfef !important;
+				color: #059033 !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3988,7 +3988,7 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
+				box-shadow: inset 0 0 0 2px #059033;
 				color: #059033 !important;
 			}
 
@@ -4098,7 +4098,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #059033;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
