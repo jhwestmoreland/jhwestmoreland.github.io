@@ -3204,7 +3204,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #059033;
+			background-color: black;
 			background-image: url("../../images/overlay.png"), linear-gradient( transparent 20%, white 70%), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -3298,7 +3298,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #059033 !important;
+				color: black !important;
 			}
 
 		#intro strong, #intro b {
