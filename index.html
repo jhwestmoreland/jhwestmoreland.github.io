@@ -11,10 +11,9 @@
 
 		<link rel="shortcut icon" href="favicon.png" type="image/png">
 		<script>
-			$(document).ready(function(){
-				$('#Password').click(function(){	
-				var testV = 1;
-				var pass1 = prompt('Please Enter Your Password',' ');
+			function passWord() {
+			var testV = 1;
+			var pass1 = prompt('Please Enter Your Password',' ');
 				while (testV < 3) {
 					if (!pass1)
 						history.go(-1);
@@ -26,11 +25,10 @@
 					testV+=1;
 					var pass1 = prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
 				}
-					if (pass1.toLowerCase()!="password" & testV ==3)
+				if (pass1.toLowerCase()!="password" & testV ==3)
 					history.go(-1);
 				return " ";
-				}
-				});
+			}
 		</script>
 	</head>
 	<body class="is-preload">
@@ -134,7 +132,7 @@
 									<p>Stuff</p>
 									<form action="index.html">
 									<ul class="actions special">
-										<li><a  class="button" id="Password">View Full Story</a></li>
+										<li><a  class="button" onClick="Password()">View Full Story</a></li>
 									</ul>
 									</form>
 								</article>
