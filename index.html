@@ -11,7 +11,8 @@
 
 		<link rel="shortcut icon" href="favicon.png" type="image/png">
 		<script>
-			function Password(){
+			$(document).ready(function(){
+				$('#Password').click(function(){	
 				var testV = 1;
 				var pass1 = prompt('Please Enter Your Password',' ');
 				while (testV < 3) {
@@ -23,14 +24,13 @@
 						break;
 					}
 					testV+=1;
-					var pass1 =
-					prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+					var pass1 = prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
 				}
 					if (pass1.toLowerCase()!="password" & testV ==3)
 					history.go(-1);
 				return " ";
 				}
-			}
+				});
 		</script>
 	</head>
 	<body class="is-preload">
@@ -51,7 +51,7 @@
 							<li class="active"><a>Home Page</a></li> 
 						</ul>
 						<ul class="icons">
-							<li><a class="icon fa fa-gift" title="Grinch with a Heart" onClick="Password()"><span class="label">Grinch with a Heart</a></li>
+							<li><a class="icon fa fa-gift" title="Grinch with a Heart" id="Password"><span class="label">Grinch with a Heart</a></li>
 							<li><a href="https://jhwestmoreland.github.io/AboutMe" class="icon fa-id-card-o" title="About me"><span class="label">About me</a></li>
 							<li><a href="https://www.linkedin.com/in/jared-westmoreland/" target="_blank" title="Linkedin" class="icon fa-linkedin"><span class="label">Instagram</span></a></li>
 							<li><a href="https://github.com/jhwestmoreland" target="_blank" title="GitHub" class="icon fa-github"><span class="label">GitHub</span></a></li>
